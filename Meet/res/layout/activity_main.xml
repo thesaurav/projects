@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/findbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mobile"
+        android:layout_alignParentLeft="true"
+        android:text="find" />
+
+    <Button
+        android:id="@+id/changebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/findbutton"
+        android:layout_alignBottom="@+id/findbutton"
+        android:layout_alignParentRight="true"
+        android:text="change" />
+
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mobile"
+        android:layout_centerHorizontal="true"
+        android:text="exit" />
+ 
+</RelativeLayout>
