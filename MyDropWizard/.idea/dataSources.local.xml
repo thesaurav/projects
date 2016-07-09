@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - dropwizard@localhost" uuid="2d7dce35-5ff1-4d25-9797-fbf7eb53780b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>dropwizard.*</schema-pattern>
+      <default-schemas>dropwizard.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - dropwizard@localhost" uuid="2d7dce35-5ff1-4d25-9797-fbf7eb53780b">
+    <database-info product="MySQL" version="5.5.5-10.1.13-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="dropwizard"/>
+      <table id="2" parent="1" name="user"/>
+      <column id="3" parent="2" name="userName">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="4" parent="2" name="userId">
+        <data-type>varchar(50)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
